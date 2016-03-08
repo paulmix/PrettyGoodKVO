@@ -7,6 +7,7 @@
 //
 
 import CoreGraphics
+import Foundation
 
 extension CGRect: PGKVOChangeNSValueConvertible {
     public init?(changeValue: NSValue) {
