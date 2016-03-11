@@ -38,4 +38,5 @@ extension AVCaptureFlashMode: PGKVOChangeValueConvertible { }
 extension AVCaptureDevicePosition: PGKVOChangeValueConvertible { }
 extension AVAssetWriterStatus: PGKVOChangeValueConvertible { }
 
-// TODO: extension AVCaptureWhiteBalanceGains: PGKVOChangeValueConvertible { }
+// PEM - removed "to-do" to supress build warnings
+// to-do: extension AVCaptureWhiteBalanceGains: PGKVOChangeValueConvertible { }
