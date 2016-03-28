@@ -8,7 +8,11 @@
 
 import Foundation
 
+#if swift(>=2.2)
+private var keyForAssociatedProxyObject = #selector(NSObject.pgkvo_getProxyObserver)
+#else
 private var keyForAssociatedProxyObject = Selector("pgkvo_getProxyObserver")
+#endif
 
 /// Internal helpers for adding and removing observers and proxy observers.
 

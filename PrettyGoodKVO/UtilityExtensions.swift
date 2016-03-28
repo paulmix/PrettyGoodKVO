@@ -47,7 +47,11 @@ func performClosure(@autoclosure(escaping) closure: () -> (), onQueue queue: NSO
 }
 
 public protocol OptionalType: NilLiteralConvertible {
+    #if swift(>=2.2)
+    associatedtype WrappedType
+    #else
     typealias WrappedType
+    #endif
     init(_ some: WrappedType)
     init()
 }
