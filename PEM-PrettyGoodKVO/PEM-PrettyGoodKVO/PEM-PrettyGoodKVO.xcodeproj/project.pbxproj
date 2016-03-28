@@ -377,7 +377,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0730;
 				TargetAttributes = {
 					CFB31D031C8E6FE40094AD4E = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -533,6 +533,8 @@
 		CFB31CFD1C8E6FC80094AD4E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				ONLY_ACTIVE_ARCH = YES;
 			};
 			name = Debug;
 		};
@@ -959,6 +961,7 @@
 				CFB31D181C8E6FE50094AD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFB31D191C8E6FE50094AD4E /* Build configuration list for PBXNativeTarget "PEM-PrettyGoodKVO-OSXTests" */ = {
 			isa = XCConfigurationList;
@@ -967,6 +970,7 @@
 				CFB31D1B1C8E6FE50094AD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFB31D321C8E6FF20094AD4E /* Build configuration list for PBXNativeTarget "PEM-PrettyGoodKVO-IOS" */ = {
 			isa = XCConfigurationList;
@@ -975,6 +979,7 @@
 				CFB31D341C8E6FF20094AD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFB31D351C8E6FF20094AD4E /* Build configuration list for PBXNativeTarget "PEM-PrettyGoodKVO-IOSTests" */ = {
 			isa = XCConfigurationList;
@@ -983,6 +988,7 @@
 				CFB31D371C8E6FF20094AD4E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
